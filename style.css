@@ -1,0 +1,127 @@
+body {
+  width: 100%;
+  margin: 30px 32px;
+  padding: 0px;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95%;
+}
+
+body header img {
+  border: red solid 0px;
+  width: 12%;
+  margin-right: 75px;
+}
+
+body header nav {
+  width: 50%;
+  border: red solid 0px;
+  font-size: 20px;
+}
+
+body header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body header nav ul :hover {
+  color: #4827EC;
+  cursor: pointer;
+}
+
+body header nav ul li {
+  padding: 6px 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #323639;
+}
+
+body header nav ul li.solutions .subnav {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 450px;
+  -webkit-box-shadow: 1px 18px 18px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 18px 18px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  padding: 0px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+body header nav ul li.solutions .subnav li {
+  padding: 13px 30px 13px 16px;
+  border-radius: 2px;
+}
+
+body header nav ul li.solutions .subnav li:hover {
+  background-color: #e7e1e1;
+  color: #323639;
+}
+
+body header nav ul li.solutions:hover > ul {
+  display: block;
+}
+
+body header nav ul li.Resource {
+  color: #4827EC;
+}
+
+body header .atras {
+  border: red solid 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  margin-left: 75px;
+}
+
+body header .atras :hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+body header .atras a {
+  height: 40px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #323639;
+  margin-top: 10px;
+}
+
+body header .atras a:hover {
+  color: #4827EC;
+  cursor: pointer;
+}
+
+body header .atras button {
+  width: 90px;
+  height: 40px;
+  background-color: #4827EC;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
